@@ -14,14 +14,17 @@ struct ContentView: View {
     
     var body: some View {
        
-        VStack {
-            Button(action: {self.isShow.toggle()}) {
-                Text("Show new view")
+        ZStack {
+            Color.green.opacity(0.3)
+            VStack {
+                Button(action: {self.isShow.toggle()}) {
+                    Text("Show new view")
+                }
             }
+                
+            .sheet(isPresented: $isShow){ ModalView() }
+            .navigationBarTitle("Dossi")
         }
-            
-        .sheet(isPresented: $isShow){ ModalView() }
-        .navigationBarTitle("Dossi")
     }
 }
 
