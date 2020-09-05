@@ -19,10 +19,9 @@ struct ContentView: View {
             Color.green.opacity(0.3)
      
             HStack {
-                Button(action: {self.isShow.toggle()}) {
-                         ModalView()
-                            .background(Color.white)
-                }
+                     Text("dossi")
+                        .padding()
+                        .background(Color.red)
                 
                 Button(action: {self.isBool.toggle()}) {
                          ModalView()
