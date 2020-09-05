@@ -11,6 +11,7 @@ import SwiftUI
 struct ContentView: View {
     
     @State var isShow : Bool = false
+    @State var isBool : Bool = false
     
     var body: some View {
        
@@ -20,9 +21,13 @@ struct ContentView: View {
                 Button(action: {self.isShow.toggle()}) {
                          ModalView()
                 }
+                
+                Button(action: {self.isBool.toggle()}) {
+                         ModalView()
+                }
             }
                 
-            .sheet(isPresented: $isShow){ ModalView() }
+            
             .navigationBarTitle("Dossi")
         }
     }
