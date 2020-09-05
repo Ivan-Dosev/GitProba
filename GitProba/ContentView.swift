@@ -17,7 +17,8 @@ struct ContentView: View {
        
         ZStack {
             Color.green.opacity(0.3)
-            VStack {
+     
+            HStack {
                 Button(action: {self.isShow.toggle()}) {
                          ModalView()
                             .background(Color.white)
