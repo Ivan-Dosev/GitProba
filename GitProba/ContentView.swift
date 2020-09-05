@@ -9,8 +9,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var isShow : Bool = false
+    
     var body: some View {
-        Text("Hello, World!")
+       
+        VStack {
+            Button(action: {self.isShow.toggle()}) {
+                Text("Show new view")
+            }
+        }
+            
+        .sheet(isPresented: $isShow){ ModalView() }
+        .navigationBarTitle("Dossi")
     }
 }
 

@@ -16,6 +16,7 @@
 		709C7FFF250353820077E85B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709C7FFD250353820077E85B /* LaunchScreen.storyboard */; };
 		709C800A250353830077E85B /* GitProbaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709C8009250353830077E85B /* GitProbaTests.swift */; };
 		709C8015250353830077E85B /* GitProbaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709C8014250353830077E85B /* GitProbaUITests.swift */; };
+		709C8023250355FE0077E85B /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709C8022250355FD0077E85B /* ModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		709C8010250353830077E85B /* GitProbaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitProbaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		709C8014250353830077E85B /* GitProbaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitProbaUITests.swift; sourceTree = "<group>"; };
 		709C8016250353830077E85B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		709C8022250355FD0077E85B /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				709C7FEF2503536D0077E85B /* AppDelegate.swift */,
 				709C7FF12503536D0077E85B /* SceneDelegate.swift */,
 				709C7FF62503536D0077E85B /* ContentView.swift */,
+				709C8022250355FD0077E85B /* ModalView.swift */,
 				709C7FF8250353820077E85B /* Assets.xcassets */,
 				709C7FFD250353820077E85B /* LaunchScreen.storyboard */,
 				709C8000250353820077E85B /* Info.plist */,
@@ -274,6 +277,7 @@
 				709C7FF22503536D0077E85B /* SceneDelegate.swift in Sources */,
 				709C7FF72503536D0077E85B /* ContentView.swift in Sources */,
 				709C7FF52503536D0077E85B /* GitProba.xcdatamodeld in Sources */,
+				709C8023250355FE0077E85B /* ModalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
