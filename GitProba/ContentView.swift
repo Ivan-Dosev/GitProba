@@ -20,10 +20,13 @@ struct ContentView: View {
             VStack {
                 Button(action: {self.isShow.toggle()}) {
                          ModalView()
+                            .background(Color.red)
                 }
                 
                 Button(action: {self.isBool.toggle()}) {
                          ModalView()
+                            .background(Color.green)
+                    
                 }
             }
                 
