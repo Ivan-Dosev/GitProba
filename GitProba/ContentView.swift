@@ -18,7 +18,7 @@ struct ContentView: View {
             Color.green.opacity(0.3)
             VStack {
                 Button(action: {self.isShow.toggle()}) {
-                    Text("Show new view")
+                         ModalView()
                 }
             }
                 
